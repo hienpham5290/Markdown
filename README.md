@@ -105,15 +105,7 @@ ___
 Ta đặt 3 dấu nháy ngược ở đầu, và 3 dấu nháy ngược ở cuối của đoạn code đó.<br/>
 Sau 3 dấu nháy ngược ở đầu đoạn code, ta viết thêm tên ngôn ngữ của đoạn code đó.<br/>
 Ví dụ:
-```
-   ```java
-      public class Example{
-         public static void main(String[] args) {
-            // something here
-         }
-      }
-   ```
-```
+<img src="https://github.com/hienpham5290/Markdown/blob/main/inlinecode.png">
 
 Kết quả nhận được:
 ```java
