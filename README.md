@@ -106,13 +106,13 @@ Ta đặt 3 dấu nháy ngược ở đầu, và 3 dấu nháy ngược ở cu�
 Sau 3 dấu nháy ngược ở đầu đoạn code, ta viết thêm tên ngôn ngữ của đoạn code đó.<br/>
 Ví dụ:
 ```
-   \`\`\`java
+   ```java
       public class Example{
          public static void main(String[] args) {
             // something here
          }
       }
-   \`\`\`
+   ```
 ```
 Kết quả nhận được:
 ```java
