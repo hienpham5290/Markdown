@@ -112,7 +112,7 @@ Ví dụ:
             // something here
          }
       }
-   \```
+\   ```
 ```
 
 Kết quả nhận được:
