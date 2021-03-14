@@ -70,7 +70,7 @@ Kết quả nhận được:
    - Dọng phụ 2.2
 ___
 ### 4. Đánh dấu xuống dòng
-Để xuống dòng trong cùng 1 đoạn văn, ta sử dụng thẻ đánh dấu `\<br/>`, mọi thông tin phía sau<br/>
+Để xuống dòng trong cùng 1 đoạn văn, ta sử dụng thẻ đánh dấu `<br/>`, mọi thông tin phía sau<br/>
 thẻ này đều hiển thị ở dòng mới trong cùng 1 đoạn văn.
 
 Để xuống dòng, và chuyển sang 1 đoạn văn mới, ta chỉ việc nhấn `Enter` 2 lần,<br/>
@@ -115,3 +115,4 @@ public class Example{
     }
 }
 ```
+___
