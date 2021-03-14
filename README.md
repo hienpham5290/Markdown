@@ -112,13 +112,14 @@ Ví dụ:
             // something here
          }
       }
-   ```
+   \```
 ```
+
 Kết quả nhận được:
 ```java
-      public class Example{
-         public static void main(String[] args) {
-            // something here
-         }
-      }
+public class Example{
+    public static void main(String[] args) {
+        // something here
+    }
+}
 ```
