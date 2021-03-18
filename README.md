@@ -140,7 +140,15 @@ ___
 Ta đặt 3 dấu nháy ngược ở đầu, và 3 dấu nháy ngược ở cuối của đoạn code đó.<br/>
 Sau 3 dấu nháy ngược ở đầu đoạn code, ta viết thêm tên ngôn ngữ của đoạn code đó.<br/>
 Ví dụ:
-<img src="https://github.com/hienpham5290/Markdown/blob/main/inlinecode.png">
+```
+    ```java
+    public class Example{
+      public static void main(String[] args) {
+        // something here
+      }
+    }
+    ```
+```
 
 Kết quả nhận được:
 ```java
@@ -251,9 +259,82 @@ tìm kiếm.
 ___
 ### 15. Tạo bảng <a id="15"></a>
 [Về đầu trang](#0)<br/>
+* Sử dụng dấu gạch đứng `|` để phân chia cột.<br/>
+* Sử dụng dấu gạch ngang `-` để phân chia tiêu đề bảng với thành phần trong bảng.<br/>
+* Sử dụng dấu hai chấm `:` để đánh dấu canh giữa hay canh phải nội dung của 1 cột.<br/>
+* Ví dụ:
+```
+|Cột 1 Hàng 1|Cột số 2|Cột số 3|Cột số 4|
+|------------|-----|:-----:|-----:|
+|Hàng 2|2x2|3x2|4x2|
+|Hàng 3|2x3|3x3|4x3|
+|Hàng 4|2x4|3x4|4x4|
+```
+Kết quả nhận được:
+
+|Cột 1 Hàng 1|Cột số 2|Cột số 3|Cột số 4|
+|------------|-----|:-----:|-----:|
+|Hàng 2|2x2|3x2|4x2|
+|Hàng 3|2x3|3x3|4x3|
+|Hàng 4|2x4|3x4|4x4|
+
+```
+Ta có thể bỏ đi dấu gạch đứng ở đầu và cuối của 1 hàng
+Giống như thế này
+Cột 1 Hàng 1|Cột số 2|Cột số 3|Cột số 4
+------------|-----|:-----:|-----:
+Hàng 2|2x2|3x2|4x2
+Hàng 3|2x3|3x3|4x3
+Hàng 4|2x4|3x4|4x4
+```
+Kết quả:<br/>
+
+Cột 1 Hàng 1|Cột số 2|Cột số 3|Cột số 4
+------------|-----|:-----:|-----:
+Hàng 2|2x2|3x2|4x2
+Hàng 3|2x3|3x3|4x3
+Hàng 4|2x4|3x4|4x4
+
+>lưu ý: giữa bảng và các thành phần khác phải được phân cách với nhau bởi dòng trống.
 ___
 ### 16. Diagram <a id="16"></a>
 [Về đầu trang](#0)<br/>
+* Trình soạn thảo Markdown trong IntelliJ có thể kết xuất biểu đồ được định nghĩa bởi Mermaid và PlantUML.
+* Tính năng này mặc định bị vô hiệu, và yêu cầu Markdown extension.<br/>
+* Để bật hỗ trợ biểu đồ diagram
+   * trong hộp thoại `Settings/Preferences` hoặc tổ hợp phím `Ctrl+Alt+S`, chọn `Languages\&Frameworks|Markdown`.<br/>
+   * bật 1 trong 2 `Mermaid` hoặc `PlantUML` dưới `Markdown Extensions`.<br/>
+   * sau khi IntelliJ IDEA tải xuống extensions, click **OK** để xác nhận thay đổi.
+  
+`Cách vẽ Mermaid Diagram`<br/>
+* `khai báo:`<br/>
+  \```mermaid<br/>_đây là khu vực định nghĩa diagram_<br/>\```
+  
+* `hướng biểu đồ trái sang phải:`<br/>
+  \```mermaid<br/>graph LR;<br/>_đây là khu vực định nghĩa diagram_<br/>\```
+  
+* `hướng biểu đồ phải sang trái:`<br/>
+  \```mermaid<br/>graph RL;<br/>_đây là khu vực định nghĩa diagram_<br/>\```
+
+**Ví dụ:**
+<br/>Mermaid diagrams:
+```
+\```mermaid
+  graph LR;
+  A[Write code] --> B{Does it work?}
+  B -- Yes --> C[Great]
+  B -- No --> D[Google]
+  D --> A
+\```
+```
+Kết quả nhận được:
+```mermaid
+graph LR;
+A[Write code] --> B{Does it work?}
+B -- Yes --> C[Great]
+B -- No --> D[Google]
+D --> A
+```
 ___
 ### 17. Bonus <a id="17"></a>
 [Về đầu trang](#0)<br/>
