@@ -317,16 +317,10 @@ ___
   \```mermaid<br/>graph RL;<br/>_đây là khu vực định nghĩa diagram_<br/>\```
 
 **Ví dụ:**
-<br/>Mermaid diagrams:
-```
-\```mermaid
-  graph LR;
-  A[Write code] --> B{Does it work?}
-  B -- Yes --> C[Great]
-  B -- No --> D[Google]
-  D --> A
-\```
-```
+<br/>Mermaid diagrams:<br/>
+<img src="https://github.com/hienpham5290/Markdown/blob/main/mermaid_diagram.png">
+
+
 Kết quả nhận được:
 ```mermaid
 graph LR;
