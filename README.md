@@ -317,17 +317,12 @@ ___
   \```mermaid<br/>graph RL;<br/>_đây là khu vực định nghĩa diagram_<br/>\```
 
 **Ví dụ:**
-<br/>Mermaid diagrams:
-```
-\```mermaid
-  graph LR;
-  A[Write code] --> B{Does it work?}
-  B -- Yes --> C[Great]
-  B -- No --> D[Google]
-  D --> A
-\```
-```
+<br/>Mermaid diagrams:<br/>
+<img src="https://github.com/hienpham5290/Markdown/blob/main/mermaid_diagram.png">
+
+
 Kết quả nhận được:
+
 ```mermaid
 graph LR;
 A[Write code] --> B{Does it work?}
@@ -338,4 +333,51 @@ D --> A
 ___
 ### 17. Bonus <a id="17"></a>
 [Về đầu trang](#0)<br/>
+* Escape Markdown<br/>
+Nếu cần hiển thị những ký hiệu trùng với cú pháp của Markdown, chỉ cần thêm ký hiệu `\\`<br/>
+  phía trước ký hiệu cần hiển thị trong bài viết.<br/>
+  Ví dụ:<br/>
+  ```
+  \*text*
+  ```
+  Kết quả nhận được:<br/>
+`*text*` thay vì *text* (in nghiêng)
+  
+* Youtube<br/>
+Cú pháp chèn link video từ youtube.<br/>
+  ```
+  {@youtube: YouTube ID or URL}
+  ```
+  Ví dụ:<br/>
+`{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}` <br/>
+  
+{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}
+
+* Vimeo<br/>
+Cú pháp chèn link video từ vimeo.<br/>
+  ```
+  {@vimeo: Vimeo ID or URL}
+  ```
+  Ví dụ:<br/>
+`{@vimeo: https://vimeo.com/62604492}`
+
+{@vimeo: https://vimeo.com/62604492}
+
+* SlideShare<br/>
+  ```
+  {@slideshare: Slideshare ID or URL}
+  ```
+  Ví dụ:<br/>
+
+  {@slideshare: http://www.slideshare.net/asanzdiego/markdown-slides-en}
+
+* Codepen<br/>
+  ```
+  {@codepen: Codepen ID or URL}
+  ```
+  Ví dụ<br/>
+  `{@codepen: https://codepen.io/nickmoreton/pen/gbyygq}`
+  
+  {@codepen: https://codepen.io/nickmoreton/pen/gbyygq}
+  
 ___
