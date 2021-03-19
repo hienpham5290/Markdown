@@ -339,6 +339,27 @@ B -- Yes --> C[Great]
 B -- No --> D[Google]
 D --> A
 ```
+
+
+```puml
+@startuml
+class Dummy {
+  String data
+  void methods()
+}
+
+class Flight {
+   flightNumber : Integer
+   departureTime : Date
+}
+@enduml
+```
+
+```puml
+@startuml
+testdot
+@enduml
+```
 ___
 ### 17. Bonus <a id="17"></a>
 [Về đầu trang](#0)<br/>
@@ -374,13 +395,9 @@ Cú pháp chèn link video từ youtube.<br/>
   {@youtube: YouTube ID or URL}
   ```
   Ví dụ:<br/>
-`{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}` <br/>
-
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/watch?v=k7x7Q3-nU6o&list=PLzrVYRai0riSRJ3M3bifVWWRq5eJMu6tv&index=1&t=8s" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+`{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}`
+  
+{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}
 
 * Vimeo<br/>
 Cú pháp chèn link video từ vimeo.<br/>
@@ -408,5 +425,40 @@ Cú pháp chèn link video từ vimeo.<br/>
   `{@codepen: https://codepen.io/nickmoreton/pen/gbyygq}`
   
   {@codepen: https://codepen.io/nickmoreton/pen/gbyygq}
+
+
+* Gist<br/>
+Chèn link khung code từ Gist: `{@gist: Gist ID or URL}`
+  <br/>
+  Ví dụ:
+  ```
+  {@gist: https://gist.github.com/JeffreyWay/207e3bfdb5cafff050a1d75dbf755a5c}
+  ```
+  Kết quả nhận được:<br/>
+  {@gist: https://gist.github.com/JeffreyWay/207e3bfdb5cafff050a1d75dbf755a5c}
   
+
+* JSFiddle<br/>
+`{@jsfiddle: JSFiddle URL}`
+  <br/>
+  Ví dụ:
+  ```
+  {@jsfiddle: http://jsfiddle.net/kizu/zfUyN/}
+  ```
+  Kết quả:<br/>
+  {@jsfiddle: http://jsfiddle.net/kizu/zfUyN/}
+  
+
+* Google Slide<br/>
+Đối với tài liệu cần chia sẻ từ Google Slide, điều kiện cần phải có Slide từ Google,<br/>
+  và phải được public mới có thể chia sẻ ra bên ngoài trình quản lý Slide của Google.<br/>
+  cú pháp:<br/>
+  `{@googleslide: document_link}`
+  <br/>
+  Ví dụ:
+  ```
+  {@googleslide: https://docs.google.com/presentation/d/1nJ65LUlu9k_tfuQJ4jq4z-qmqOQZ0DjKKw8wn5qnnFA/edit#slide=id.p}
+  ```
+  Kết quả:<br/>
+  {@googleslide: https://docs.google.com/presentation/d/1nJ65LUlu9k_tfuQJ4jq4z-qmqOQZ0DjKKw8wn5qnnFA/edit#slide=id.p}
 ___
