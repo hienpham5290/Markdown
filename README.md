@@ -378,7 +378,7 @@ Cú pháp chèn link video từ youtube.<br/>
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/watch?v=HndN6P9ke6U" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/watch?v=k7x7Q3-nU6o&list=PLzrVYRai0riSRJ3M3bifVWWRq5eJMu6tv&index=1&t=8s" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
