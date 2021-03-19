@@ -225,6 +225,15 @@ ___
 ```
 Kết quả nhận được:<br/>
 [My GitHub](https://github.com/hienpham5290)
+
+* Để chèn link gửi mail đến tài khoản chỉ định, sử dụng cú pháp sau:<br/>
+`[title](mailto:mail_address)` <br/>
+  Ví dụ:<br/>
+  ```
+  [My Email](mailto:hienpham.90cm@gmail.com)
+  ```
+  Kết quả nhận được:<br/>
+  [My Email](mailto:hienpham.90cm@gmail.com)
 ___
 ### 13. Chèn ảnh <a id="13"></a>
 [Về đầu trang](#0)<br/>
@@ -333,6 +342,22 @@ D --> A
 ___
 ### 17. Bonus <a id="17"></a>
 [Về đầu trang](#0)<br/>
+* Comment<br>
+  Để thêm comment vào khu vực edit Markdown, sử dụng cú pháp sau:<br>
+  `<!-- comment_here -->`
+  <br>Nội dung của comment sẽ không hiển thị ở đầu ra.<br>
+  Ví dụ:<br>
+  ```
+  Đây là dòng 1
+  <!-- dòng này sẽ không hiển thị trong văn bản đầu ra -->
+  Đây là dòng 2
+  ```
+  Kết quả nhận được:<br>
+  Đây là dòng 1<br/>
+  <!-- dòng này sẽ không hiển thị trong văn bản đầu ra -->
+  Đây là dòng 2    
+
+
 * Escape Markdown<br/>
 Nếu cần hiển thị những ký hiệu trùng với cú pháp của Markdown, chỉ cần thêm ký hiệu `\\`<br/>
   phía trước ký hiệu cần hiển thị trong bài viết.<br/>
@@ -350,8 +375,12 @@ Cú pháp chèn link video từ youtube.<br/>
   ```
   Ví dụ:<br/>
 `{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}` <br/>
-  
-{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/watch?v=HndN6P9ke6U" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
 
 * Vimeo<br/>
 Cú pháp chèn link video từ vimeo.<br/>
