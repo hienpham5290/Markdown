@@ -339,27 +339,6 @@ B -- Yes --> C[Great]
 B -- No --> D[Google]
 D --> A
 ```
-
-
-```puml
-@startuml
-class Dummy {
-  String data
-  void methods()
-}
-
-class Flight {
-   flightNumber : Integer
-   departureTime : Date
-}
-@enduml
-```
-
-```puml
-@startuml
-testdot
-@enduml
-```
 ___
 ### 17. Bonus <a id="17"></a>
 [Về đầu trang](#0)<br/>
