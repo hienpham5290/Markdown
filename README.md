@@ -264,7 +264,7 @@ tìm kiếm.
   
 * Với việc đặt mỏ neo như sau, ta sử dụng cú pháp như sau:<br/>
 đối với mục lục: `[Title](#ID)`<br/>
-đối với tiêu đề: `# Title <a id="ID"></>`
+đối với tiêu đề: `# Title <a id="ID"></a>`
 ___
 ### 15. Tạo bảng <a id="15"></a>
 [Về đầu trang](#0)<br/>
