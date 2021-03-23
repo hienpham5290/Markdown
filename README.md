@@ -370,14 +370,14 @@ Nếu cần hiển thị những ký hiệu trùng với cú pháp của Markdow
 `*text*` thay vì *text* (in nghiêng)
   
 * Youtube<br/>
-Cú pháp chèn link video từ youtube.<br/>
+Cú pháp chèn link video từ youtube, để link riêng trên 1 dòng.<br/>
   ```
-  {@youtube: YouTube ID or URL}
+  YouTube ID or URL
   ```
   Ví dụ:<br/>
-`{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}`
+`https://www.youtube.com/watch?v=HndN6P9ke6U`
   
-{@youtube: https://www.youtube.com/watch?v=HndN6P9ke6U}
+https://www.youtube.com/watch?v=HndN6P9ke6U
 
 * Vimeo<br/>
 Cú pháp chèn link video từ vimeo.<br/>
