@@ -368,7 +368,7 @@ Nếu cần hiển thị những ký hiệu trùng với cú pháp của Markdow
   ```
   Kết quả nhận được:<br/>
 `*text*` thay vì *text* (in nghiêng)
-  
+  <!--
 * Youtube<br/>
 Cú pháp chèn link video từ youtube, để link riêng trên 1 dòng.<br/>
   ```
@@ -440,5 +440,5 @@ Chèn link khung code từ Gist: `{@gist: Gist ID or URL}`
   {@googleslide: https://docs.google.com/presentation/d/1nJ65LUlu9k_tfuQJ4jq4z-qmqOQZ0DjKKw8wn5qnnFA/edit#slide=id.p}
   ```
   Kết quả:<br/>
-  {@googleslide: https://docs.google.com/presentation/d/1nJ65LUlu9k_tfuQJ4jq4z-qmqOQZ0DjKKw8wn5qnnFA/edit#slide=id.p}
+  {@googleslide: https://docs.google.com/presentation/d/1nJ65LUlu9k_tfuQJ4jq4z-qmqOQZ0DjKKw8wn5qnnFA/edit#slide=id.p} -->
 ___
