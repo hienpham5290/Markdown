@@ -329,15 +329,14 @@ ___
 <br/>Mermaid diagrams:<br/>
 <img src="https://github.com/hienpham5290/Markdown/blob/main/mermaid_diagram.png">
 
-
 Kết quả nhận được:
 
 ```mermaid
 graph LR;
-   A[Write code] --> B{Does it work?}
-   B -- Yes --> C[Great]
-   B -- No --> D[Google]
-   D --> A
+A[Write code] --> B{Does it work?}
+B -- Yes --> C[Great]
+B -- No --> D[Google]
+D --> A
 ```
 
 ___
