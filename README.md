@@ -56,24 +56,24 @@ ___
 [Về đầu trang](#0)<br/>
 Có nhiều cách để thể hiện gạch đầu dòng trong Markdown.<br/>
 Ta có thể sử dụng dấu `*` hoặc `+` hoặc `-` kèm với 1 dấu cách trước mỗi dòng cần đánh dấu.<br/>
-Ta có thể thêm những gạch đầu dòng phụ, bằng cách thụt vào trong `3 dấu cách`.<br/>
+Ta có thể thêm những gạch đầu dòng phụ, bằng cách thụt vào trong `4 dấu cách` hay `1 tab`.<br/>
 Markdown cũng không quan tâm dùng ký hiệu nào để đánh dấu, chỉ cần tuân thủ quy tắc thụt đầu dòng.<br/>
 Ví dụ:
 ```
 * Dòng 1
-   * Dòng phụ 1.1
-   + Dòng phụ 1.2
+    * Dòng phụ 1.1
+    + Dòng phụ 1.2
 + Dòng 2
-   * Dòng phụ 2.1
-   - Dòng phụ 2.2
+    * Dòng phụ 2.1
+    - Dòng phụ 2.2
 ```
 Kết quả nhận được:
 * Dòng 1
-   - Dòng phụ 1.1
-   + Dòng phụ 1.2
+    - Dòng phụ 1.1
+    + Dòng phụ 1.2
 + Dòng 2
-   * Dòng phụ 2.1
-   - Dòng phụ 2.2
+    * Dòng phụ 2.1
+    - Dòng phụ 2.2
 ___
 ### 4. Đánh dấu xuống dòng <a id="4"></a>
 [Về đầu trang](#0)<br/>
